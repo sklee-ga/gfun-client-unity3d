@@ -1,0 +1,24 @@
+{
+  "group": "IgaworksCoupon",
+  "patches": [],
+  "libs": [
+    "IgaworksCoupon/Editor/iOS/IgaworksCoupon/libIgaworksCouponLib.a:<group>",
+  ],
+  "librarysearchpaths": [
+    "IgaworksCoupon/Editor/iOS/IgaworksCoupon/",
+  ],
+  "frameworks": [
+  	"libxml2.dylib:weak"
+  ],
+  "headerpaths": [
+    "IgaworksCoupon/Editor/iOS",
+  ],
+  "files": [
+    "IgaworksCoupon/Editor/iOS/IgaworksCouponPlugin.mm",
+    "IgaworksCoupon/Editor/iOS/IgaworksCouponPlugin.h",
+    "IgaworksCoupon/Editor/iOS/IgaworksCoupon/IgaworksCoupon.bundle",
+  ],
+  "folders": [],
+  "excludes": ["^.*\\.meta$", "^.*\\.mdown^", "^.*\\.pdf$"],
+  "other_ldflags": ["-all_load"]
+}

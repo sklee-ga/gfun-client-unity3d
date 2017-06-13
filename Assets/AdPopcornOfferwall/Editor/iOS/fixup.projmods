@@ -1,0 +1,33 @@
+{
+  "group": "AdPopcornOfferwall",
+  "patches": [],
+  "libs": [
+    "AdPopcornOfferwall/Editor/iOS/AdPopcornOfferwall/libAdPopcornOfferwallLib.a:<group>",
+  ],
+  "librarysearchpaths": [
+    "AdPopcornOfferwall/Editor/iOS/AdPopcornOfferwall/",
+  ],
+  "frameworks": [
+  	"ImageIO.framework:weak",
+  	"AdSupport.framework:weak",
+  	"libxml2.dylib:weak",
+    "SafariServices.framework:weak"
+    "ImageIO.framework:weak"
+    "MessageUI.framework:weak"
+    "MediaPlayer.framework:weak"
+    "AVKit.framework:weak"
+    "AVFoundation.framework:weak"
+    "CoreMedia.framework:weak"
+  ],
+  "headerpaths": [
+    "AdPopcornOfferwall/Editor/iOS",
+  ],
+  "files": [
+    "AdPopcornOfferwall/Editor/iOS/AdPopcornOfferwallPlugin.mm",
+    "AdPopcornOfferwall/Editor/iOS/AdPopcornOfferwallPlugin.h",
+    "AdPopcornOfferwall/Editor/iOS/AdPopcornOfferwall/AdPopcornOfferwall.bundle",
+  ],
+  "folders": [],
+  "excludes": ["^.*\\.meta$", "^.*\\.mdown^", "^.*\\.pdf$"],
+  "other_ldflags": ["-all_load"]
+}

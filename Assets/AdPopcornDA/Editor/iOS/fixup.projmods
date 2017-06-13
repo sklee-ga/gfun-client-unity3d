@@ -1,0 +1,31 @@
+{
+  "group": "AdPopcornDA",
+  "patches": [],
+  "libs": [
+    "AdPopcornDA/Editor/iOS/AdPopcornDA/libAdPopcornDALib.a:<group>",
+  ],
+  "librarysearchpaths": [
+    "AdPopcornDA/Editor/iOS/AdPopcornDA/",
+  ],
+  "frameworks": [
+  	"MobileCoreServices.framework:weak",
+  	"AdSupport.framework:weak",
+  	"libxml2.dylib:weak",
+  	"MessageUI.framework:weak",
+  	"MediaPlayer.framework:weak",
+    "AVKit.framework:weak",
+    "AVFoundation.framework:weak",
+    "CoreMedia.framework:weak"
+  ],
+  "headerpaths": [
+    "AdPopcornDA/Editor/iOS",
+  ],
+  "files": [
+    "AdPopcornDA/Editor/iOS/AdPopcornDAPlugin.mm",
+    "AdPopcornDA/Editor/iOS/AdPopcornDAPlugin.h",
+    "AdPopcornDA/Editor/iOS/AdPopcornDA/AdPopcornDA.bundle",
+  ],
+  "folders": [],
+  "excludes": ["^.*\\.meta$", "^.*\\.mdown^", "^.*\\.pdf$"],
+  "other_ldflags": ["-all_load"]
+}

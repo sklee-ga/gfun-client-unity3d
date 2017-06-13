@@ -1,0 +1,25 @@
+{
+  "group": "IgaworksNanoo",
+  "patches": [],
+  "libs": [
+    "IgaworksNanoo/Editor/iOS/IgaworksNanoo/libIgaworksNanooLib.a:<group>",
+  ],
+  "librarysearchpaths": [
+    "IgaworksNanoo/Editor/iOS/IgaworksNanoo/",
+  ],
+  "frameworks": [
+  	"libxml2.dylib:weak",
+    "SafariServices.framework:weak"
+  ],
+  "headerpaths": [
+    "IgaworksNanoo/Editor/iOS",
+  ],
+  "files": [
+    "IgaworksNanoo/Editor/iOS/IgaworksNanooPlugin.mm",
+    "IgaworksNanoo/Editor/iOS/IgaworksNanooPlugin.h",
+    "IgaworksNanoo/Editor/iOS/IgaworksNanoo/IgaworksNanoo.bundle",
+  ],
+  "folders": [],
+  "excludes": ["^.*\\.meta$", "^.*\\.mdown^", "^.*\\.pdf$"],
+  "other_ldflags": ["-all_load"]
+}

@@ -1,0 +1,9 @@
+<resources>
+    
+<string name="app_name">MyPh</string>
+
+<!-- GF365 추가할 사항 -->
+<string name="gf365_host">items</string>
+<string name="gf365_scheme">gf365.l09k6c0ebpni</string>
+
+</resources>
